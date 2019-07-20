@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAP Houston Trivia</title>
+
+    <!--J Query Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!--Link to style.css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+      <div class="container">
+      <div class="triviaContainer container">
+        <h1 class="text-center">H-Town Trivia</h1>
+        
+        <div class = "buttonDiv">
+            <button class="start btn">Start H-Town Trivia!</button>
+        </div>  
+        
+        <div id="triviaForm">
+            <form action="#"> 
+                <div class="text-center" id="counter"></div>   
+            
+                <h4>1. How many feet above sea level?</h4>
+            
+                <input class="answer" type ="radio" name="question1" value="25">25
+                <input class="answer" type ="radio" name="question1" value="43True"> 43
+                <input class="answer" type ="radio" name="question1" value="75"> 75
+                <input class="answer" type ="radio" name="question1" value="10"> 10
+
+                <br>
+
+                <h4>2. This Stadium was the first of its kind when it opened in 1965 and was nicknamed the "8th Wonder of the World"?</h4>
+            
+                <input class="answer" type ="radio" name="question2" value="NRG"> NRG
+                <input class="answer" type ="radio" name="question2" value="MinuteMaid"> Minute Maid
+                <input class="answer" type ="radio" name="question2" value="AstrodomeTrue"> Astrodome
+                <input class="answer" type ="radio" name="question2" value="TheColosseum"> The Colosseum
+                
+                <br>
+
+                <h4>3. Name this Houston Rockets player who's move is called the "Dream Shake"?</h4>
+            
+                <input class="answer" type ="radio" name="question3" value="JamesHarden"> James Harden
+                <input class="answer" type ="radio" name="question3" value="YaoMing"> Yao Ming
+                <input class="answer" type ="radio" name="question3" value="ClydeDrexler"> Clyde Drexler           
+                <input class="answer" type ="radio" name="question3" value="HakeemTrue"> Hakeem Olajuwon
+                
+                <br>
+
+                <h4>4. Which Brewery created a beer name the "Dream Shake Stout"?</h4>
+
+                <input class="answer" type ="radio" name="question4" value="Karbach"> Karbach  
+                <input class="answer" type ="radio" name="question4" value="8thTrue"> 8th Wonder
+                <input class="answer" type ="radio" name="question4" value="BuffaloBayou"> Buffalo Bayou
+                <input class="answer" type ="radio" name="question4" value="StAnorld"> St Anorld's
+                
+                <br>
+
+                <h4>5. What was the name of the NFL Team that left Houston?</h4>
+            
+                <input class="answer" type ="radio" name="question5" value="OliersTrue"> Oliers
+                <input class="answer" type ="radio" name="question5" value="rockets"> Rockets
+                <input class="answer" type ="radio" name="question5" value="colt"> Colt 45's
+                
+                <br>
+
+                <h4>6. What's the name of the bayou that runs through downtown?</h4>
+            
+                <input class="answer" type ="radio" name="question6" value="brays"> Brays
+                <input class="answer" type ="radio" name="question6" value="whiteoak"> White Oak
+                <input class="answer" type ="radio" name="question6" value="BuffaloTrue"> Buffalo
+                <input class="answer" type ="radio" name="question6" value="greens"> Greens
+                
+                <br>
+
+                <h4>7. What year was the city of Houston founded?</h4>
+            
+                <input class="answer" type ="radio" name="question7" value="1837"> 1837  
+                <input class="answer" type ="radio" name="question7" value="1836True"> 1836
+                <input class="answer" type ="radio" name="question7" value="1820"> 1820
+            
+                <br>
+
+                <h4>8. Was Houston the captial of Texas?</h4>
+            
+                <input class="answer" type ="radio" name="question8" value="TrueTrue"> True
+                <input class="answer" type ="radio" name="question8" value="False"> False
+                
+                <br>
+
+                <h4>9. Which nicknames are best know for Houston?</h4>
+            
+                <input class="answer" type ="radio" name="question9" value="spacecity"> Space city
+                <input class="answer" type ="radio" name="question9" value="713"> 713
+                <input class="answer" type ="radio" name="question9" value="htown"> H-Town
+                <input class="answer" type ="radio" name="question9" value="aobTrue"> All of the Above
+                
+                <br>
+            
+            </form>
+
+        </div>
+
+        <div id="Answers">
+            <h3 class="fontStyle">Right: <span id="correctAnswer"></span></h3>
+            <h3 class="fontStyle">Wrong: <span id="wrongAnswer"></span></h3>
+            <h3 class="fontStyle">Unanswered: <span id="unAnswered"></span></h3>
+        </div>
+    </div>
+
+    <footer>
+        <div class ="footcontainer">
+            &copy; Copyright MAP
+        </div>
+    </footer>
+
+    </div>
+
+    <!--Link to JS-->
+    <script src="assets/javascript/app.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,81 @@
+/**External CSS Stylesheet**/
+
+body{
+    background-image:url("../images/cohstreets.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.triviaContainer {
+    background-color: #e4e1e1;
+    margin-top: 6em;
+    padding-bottom: 3em;
+    opacity: .9;
+}
+
+h1 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.buttonDiv {
+    text-align: center;
+    padding: 10px;
+}
+
+.start {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 28px;
+    color: #fffdfd;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+h3{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    color: #0a0a0a;
+    margin: 0 0 10px;
+}
+
+h4{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    color: #0a0a0a;
+    margin: 10px;
+}
+
+.answer{
+    margin: 10px 10px 10px 10px;
+}
+
+#counter {
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'El Messiri', sans-serif;
+    color: #ff0606; 
+}
+
+#triviaForm {
+    font-size: 18px;
+    font-family: 'El Messiri', sans-serif;
+    background-color: #e4e1e1;
+}
+
+#AnswerCard {
+    font-size: 20px;
+    font-family: 'El Messiri', sans-serif;
+}
+
+footer {
+    width: auto;
+    margin-top: 20px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+}
